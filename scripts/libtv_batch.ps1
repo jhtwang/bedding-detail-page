@@ -8,7 +8,7 @@ libtv group use $GROUP
 # libtv upload "<前缀>参考_首屏" -f <首屏参考.jpg>
 # libtv upload "<前缀>参考_卖点1" -f <卖点1透明.png>
 # ...
-$common = @("-s","model=Lib Image","-s","count=1","-s","quality=high","-s","resolution=2K","-s","template=一键电商爆款产品详情页长图整套全案设计")
+$common = @("-s","model=Lib Image 2.5 Pro","-s","count=1","-s","quality=high","-s","resolution=2K","-s","template=一键电商爆款产品详情页长图整套全案设计")
 # 建节点（image2image 用 --left；规格/洗涤用 -s modeType=text2image）
 # libtv node create "<前缀>模块1_首屏" -t image --prompt $pre + "首屏主视觉..." @common -s modeType=image2image -s ratio=3:4 --left "<前缀>参考_首屏"
 # libtv node create "<前缀>模块8_规格材质" -t image --prompt $pre + "规格材质模块..." @common -s modeType=text2image -s ratio=3:4

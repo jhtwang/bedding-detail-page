@@ -46,8 +46,9 @@ description: 四件套详情页制作：资料预填、素材清单、LibTV 分�
 ```
 
 ### LibTV 出图
-- 固定组合：`-s "model=Lib Image" -s "template=一键电商爆款产品详情页长图整套全案设计" -s modeType=image2image -s quality=high -s resolution=2K -s ratio=3:4`
-- 规格/洗涤：`-s modeType=text2image`（不传参考图，提示词明确不含产品图）
+- 模型：**Lib Image 2.5 Pro**（modelKey `lib-image-2.5-s`，2026-09 起）
+- 固定组合：`-s "model=Lib Image 2.5 Pro" -s "template=一键电商爆款产品详情页长图整套全案设计" -s modeType=image2image -s quality=high -s resolution=2K -s ratio=3:4`
+- 规格/洗涤：`-s modeType=text2image`（不传参考图；2.5 Pro 同样支持 text2image；提示词明确不含产品图，且**画面不得出现任何产品/床品/布料/人物**）
 - 每模块：1 参考图（upload→--left）+ 1 提示词 + 统一风格前缀；细节=4 参考图拼 2×2 合成图作单参考
 - 下载必带 `--without-ai-watermark --vip`
 - 批量：`group create <组>` → `group use <组>` → `upload`（自动进组）→ `node create ... --left <参考> --run`（或建好节点后 `group <组> --run` 整组生成）→ 完成后 `group unuse` → `download`
