@@ -16,7 +16,7 @@
 - 品牌资料库：`D:\HuaweiMoveData\Users\HUAWEI\Documents\电商平台\品牌资料库\`
   - `品牌LOGO\`（原色+白色通用版）
   - `品牌理念\`（理念文字）
-  - `详情页模板\`（已定稿模块，如品牌理念模块）
+  - `详情页模板\`（已定稿模块：品牌理念模块、四件套底部备注模块）
 - LibTV 画布工作区：`D:\HuaweiMoveData\Users\HUAWEI\Documents\电商平台\LibTV画布\`
 - 产品资料库：`Y:\AI资料库\`（**只读，禁止修改**；新品培训PPT等，按品名读取）
 
